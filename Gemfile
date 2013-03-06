@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
-
 gem 'rails', '3.2.12'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -19,7 +18,7 @@ gem "mongoid-rspec", ">= 1.6.0", :group => :test
 gem "email_spec", ">= 1.4.0", :group => :test
 gem "fabrication", ">= 2.3.0", :group => [:development, :test]
 gem "compass-rails", ">= 1.0.3", :group => :assets
-gem "zurb-foundation", ">= 3.2.5", :group => :assets
+gem "zurb-foundation", "~> 4.0.0", :group => :assets
 gem "sendgrid", ">= 1.0.1"
 gem "omniauth", ">= 1.1.3"
 gem "omniauth-google-oauth2"
